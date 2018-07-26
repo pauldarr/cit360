@@ -58,13 +58,13 @@ public class ServletApp extends HttpServlet {
     address = contact.getAddress();
     company = contact.getCompany();
     
-    // re-reads from java bean and prints to console 
-    System.out.println ("First name stored in Bean class: "+ contact.getFirstName() ); 
-    System.out.println ("Last name stored in Bean class: "+ contact.getLastName() ); 
-    System.out.println ("Email stored in Bean class: "+ contact.getEmail() ); 
-    System.out.println ("Phone stored in Bean class: "+ contact.getPhone() ); 
-    System.out.println ("Address stored in Bean class: "+ contact.getAddress() ); 
-    System.out.println ("Company name stored in Bean class: "+ contact.getCompany() ); 
+    // re-reads from java Contact class and prints to console 
+    System.out.println ("First name stored in class: "+ contact.getFirstName() ); 
+    System.out.println ("Last name stored in class: "+ contact.getLastName() ); 
+    System.out.println ("Email stored in class: "+ contact.getEmail() ); 
+    System.out.println ("Phone stored in class: "+ contact.getPhone() ); 
+    System.out.println ("Address stored in class: "+ contact.getAddress() ); 
+    System.out.println ("Company name stored in class: "+ contact.getCompany() ); 
     
     // displays on local host
     PrintWriter out = response.getWriter();
