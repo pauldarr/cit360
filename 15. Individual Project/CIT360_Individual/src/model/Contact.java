@@ -2,14 +2,6 @@ package model;
 
 import java.io.Serializable;
 
-/*JavaBeans is a regular java class.  It is not a specific object or program.
- * It must meet the following rules:
- * 1 - All properties set to private
- * 2 - Getters and setters methods (mutator methods)
- * 3 - Must have a public no argument constructor
- * 4 - Implement Serializable interface
-*/
-
 public class Contact implements Serializable {
 	
 	private long id;
